@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?famil');
+
+/*=======================================================================================================================*/
+
+* {
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 200px;
+    border-top: solid crimson;
+    position: fixed;
+    width: 100%;
+    z-index: 1111111;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.navegashen a {
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: ease 1s;
+    font-size: 25px;
+}
+
+.navegashen a:hover {
+    color: black;
+    transition: ease 1s;
+    border-bottom: solid;
+}
+
+.myprofile {
+    height: 100vh;
+    align-items: center;
+    background-image: url(243477005_235614601822858_7584681146993449469_n.jpg);
+    background-size: cover;
+    padding: 350px 100px;
+    background-attachment: fixed;
+}
+
+.myprofile p {
+    color: black;
+    font-size: 40px;
+}
+
+.myprofile h2 {
+    color: black;
+    font-size: 29px;
+}
+
+.myprofile h1 {
+    color: black;
+    margin-left: 80%;
+    font-size: 60px;
+}
+
+.myprofile a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 0px 30px;
+    display: inline-block;
+    margin-top: 10PX;
+    font-size: 20px;
+    transition: ease .5s;
+}
+
+.myprofile a:hover {
+    transition: ease .5s;
+    font-size: 22px;
+    background-color: grey;
+}
+
+.nametitel {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.tittel {
+    font-size: 60px;
+    border-bottom: 1px solid;
+}
+
+
+/*==========================================================*/
+
+.card {
+    display: flex;
+    padding: 60px;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.cards {
+    box-shadow: 3px 3px 6px 6px #ccc;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    transition: ease 1s;
+    /* padding: 60px; */
+    border: 2px solid;
+    min-height: 10px;
+    overflow: hidden;
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: 80%;
+}
+
+.cards h3 {
+    text-align: center;
+    color: white;
+}
+
+
+/*=============================================*/
+
+.vip {
+    display: flex;
+    color: black;
+    background-color: white;
+    align-items: center;
+}
+
+.namevip {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.titelvip {
+    color: black;
+    font-size: 60px;
+    border-bottom: 1px solid;
+}
+
+.cardsvip {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    width: 16em;
+    padding: 30px 10px;
+}
+
+.vip2 {
+    justify-content: space-between;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.h22 {
+    align-items: center;
+    color: black;
+    font-size: 60px;
+}
+
+.vip2 p {
+    font-size: 20px;
+}
+
+.whats {
+    text-decoration: none;
+}
+
+.notilasora video {
+    border-radius: 50px;
+    box-shadow: 60px 60px 60px rgb(0 0 0 /40%);
+}
+
+.malek {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+.nameoner {
+    background-color: black;
+    text-align: center;
+    border-bottom: 2px solid;
+    color: white;
+}
+
+.oner {
+    font-size: 60px;
+}
+
+.ProjectCard {
+    padding: 10px 20px;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    min-height: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    transition: 0.7s;
+}
+
+.ProjectCard:hover {
+    margin: 10px 10px;
+    transition: 0.7s;
+}
+
+.ProjectCard:hover .Projectimg {
+    opacity: 0.9;
+    transition: 0.7s;
+    margin: 10px 10px;
+}
+
+.Projectimg .img {
+    width: 100%;
+}
+
+.Projectinfo {
+    padding: 1em;
+}
+
+.Projectinfo .p {
+    font-size: 0.8em;
+    color: white;
+}
+
+.ptitel {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more {
+    text-decoration: none;
+    color: white;
+    transition: 0.9s;
+}
+
+.more:hover {
+    transition: 0.9s;
+    color: black;
+}
+
+
+/*========================================*/
+
+.cardteam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.cardt {
+    border: 2px solid;
+    border-radius: 15px;
+    width: 200px;
+    height: 450px;
+    text-align: center;
+    min-height: 15px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.cardt img {
+    width: 100%;
+    height: 60%;
+    transition: 0.7s;
+}
+
+.cardt:hover {
+    transition: 0.7s;
+    background-color: black;
+}
+
+.teaminfo {
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px;
+    padding: 10px;
+}
+
+.teaminfo a {
+    text-decoration: none;
+    border: 2px solid;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.teaminfo a:hover {
+    transition: 0.7s;
+    font-size: 20px;
+}
+
+.team {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.team h2 {
+    font-size: 60px;
+    text-shadow: 3px 3px 6px 6px #ccc;
+    border-bottom: 2px solid;
+}
+
+.loc {
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    padding: 10px 20px;
+}
+
+.loc a {
+    font-size: 60px;
+    text-decoration: none;
+    border: 2px solid;
+    background-color: white;
+    transition: 0.7s;
+    border-radius: 0px 30px;
+    color: black;
+}
+
+.loc a:hover {
+    font-size: 65px;
+    background-color: darkblue;
+    transition: 0.7s;
+}
+
+.loc p {
+    font-size: 40px;
+}
+
+.map {
+    width: 500px;
+    height: 400px;
+    margin-left: 60%;
+}
+
+.foot {
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    color: white;
+}
+
+.foot.p {
+    color: white;
+}
+
+.footicons a {
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
